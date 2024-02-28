@@ -7,11 +7,11 @@ const Home = () => {
     <div>
 
         <div className='flex flex-col sm:flex-row items-center'>
-            <div className='w-[37%]'>
-                <img src={medal} alt="medal"  />
+            <div className='sm:w-[37%] flex justify-center'>
+                <img src={medal} alt="medal" className='w-[40%] sm:w-[100%]' />
             </div>
 
-            <div className='w-[63%]'>
+            <div className='sm:w-[63%]'>
                 <div className='mb-4 font-bold'>
                   <p>C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</p>
                 </div>
