@@ -33,7 +33,7 @@ const Footer = () => {
         
             <div className='flex mt-6 bg-red-600 text-white py-10 justify-center '>
               <div className='flex flex-col sm:flex-row  gap-4 justify-around sm:w-full'>
-              <Link to={`tel:1800 200 1234`} className='hover:scale-110 transition-all duration-200'>
+              <Link to={`tel:1800 200 1234`} className='sm:hover:scale-110 transition-all duration-200'>
                   <div className='flex items-center gap-2'>
                     <div className='bg-white rounded-full text-red-600 size-7 flex items-center justify-center'>
                       <IoMdCall />
@@ -41,7 +41,7 @@ const Footer = () => {
                     <span>Toll free 1800 200 1234</span>
                   </div>
                 </Link>
-                <Link to="https://www.facebook.com/cripumps" target="_blank" className='hover:scale-110 transition-all duration-200'>
+                <Link to="https://www.facebook.com/cripumps" target="_blank" className='sm:hover:scale-110 transition-all duration-200'>
                   <div className='flex items-center gap-2'>
                     <div className='bg-white rounded-full text-red-600 size-7 flex items-center justify-center'>
                       <FaFacebookF />
@@ -50,7 +50,7 @@ const Footer = () => {
                   </div>
                 </Link>
                 
-                <Link to="https://www.crigroups.com" target="_blank" className='hover:scale-110 transition-all duration-200'>
+                <Link to="https://www.crigroups.com" target="_blank" className='sm:hover:scale-110 transition-all duration-200'>
                   <div className='flex items-center gap-2'>
                     <div className='bg-white rounded-full text-red-600 size-7 flex items-center justify-center'>
                       <SlGlobe className='size-7'/>
